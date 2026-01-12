@@ -231,8 +231,8 @@ export const EventSchedule = () => {
             items={tabs.map(tab => tab.label)}
             manualMode={true}
             blurAmount={0.5}
-            borderColor="#FFD700"
-            glowColor="rgba(255, 215, 0, 0.6)"
+            borderColor="#8EBC8E"
+            glowColor="rgba(142, 188, 142, 0.6)"
             animationDuration={0.6}
             defaultIndex={0}
             onIndexChange={(index) => setActiveTab(tabs[index].id)}

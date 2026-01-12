@@ -116,7 +116,7 @@ export const HeroSection = () => {
         {[...Array(120)].map((_, i) => (
           <div
             key={i}
-            className={`absolute rounded-full particle-float ${Math.random() > 0.5 ? 'bg-cyber-cyan/50' : 'bg-gold/40'}`}
+            className={`absolute rounded-full particle-float ${Math.random() > 0.5 ? 'bg-cyber-cyan/50' : 'bg-[#8EBC8E]/40'}`}
             style={{
               left: `${Math.random() * 100}%`,
               top: `${Math.random() * 100}%`,
@@ -142,7 +142,7 @@ export const HeroSection = () => {
         <p
           className={`text-sm md:text-xl tracking-[0.2em] uppercase mb-6 md:mb-8 font-semibold ${mounted ? 'animate-fade-in-up' : 'opacity-0'
             }`}
-          style={{ color: 'hsl(45, 90%, 55%)' }}
+          style={{ color: '#8EBC8E' }}
         >
           The Blueprint for your Future
         </p>
@@ -180,14 +180,14 @@ export const HeroSection = () => {
           {/* 5.0 - 金色 */}
           <span className="hero-text-5" style={{ transform: 'translateZ(40px)' }}>
             <SparklesText
-              colors={['#FFC700', '#FFD700', '#FFA500']}
+              colors={['#8EBC8E', '#A8D8A8', '#B4DCB5']}
               style={{
-                background: 'linear-gradient(135deg, #ffcc00 0%, #fff8dc 30%, #ffcc00 50%, #ffd700 70%, #ffcc00 100%)',
+                background: 'linear-gradient(135deg, #8EBC8E 0%, #B4DCB5 30%, #8EBC8E 50%, #A8D8A8 70%, #8EBC8E 100%)',
                 backgroundSize: '200% 200%',
                 WebkitBackgroundClip: 'text',
                 backgroundClip: 'text',
                 WebkitTextFillColor: 'transparent',
-                filter: 'drop-shadow(0 0 30px rgba(255,204,0,0.4))',
+                filter: 'drop-shadow(0 0 30px rgba(142,188,142,0.4))',
                 animation: 'gold-shimmer 3s ease-in-out infinite',
                 display: 'inline-block'
               }}
@@ -212,7 +212,7 @@ export const HeroSection = () => {
           <a href="https://tpc-ticketing-system.vercel.app/" target="_blank" rel="noopener noreferrer">
             <Button
               size="lg"
-              className="bg-white text-[hsl(220,60%,8%)] hover:bg-white/95 font-bold px-12 py-7 text-base rounded-full transition-all hover:scale-105 uppercase tracking-wider shadow-[0_10px_40px_rgba(255,255,255,0.2)]"
+              className="bg-[#B4DCB5] text-[#212D5F] hover:bg-[#A8D8A8] font-bold px-12 py-7 text-base rounded-full transition-all hover:scale-105 uppercase tracking-wider shadow-[0_10px_40px_rgba(180,220,181,0.3)]"
             >
               Register
             </Button>

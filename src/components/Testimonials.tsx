@@ -26,7 +26,7 @@ const TestimonialCard = ({ quote, name, branch }: { quote: string; name: string;
       <div className="absolute inset-0 flex flex-col p-6 md:p-8 z-10 hover:text-white transition-colors duration-300">
         <div className="flex flex-col flex-1 relative">
           <Quote className="w-4 h-4 md:w-5 md:h-5 text-accent/40 group-hover:text-accent mb-3 transition-colors duration-300 rotate-180" />
-          <p className="flex-1 text-[#FFD700] group-hover:text-white leading-snug md:leading-relaxed text-xs md:text-sm transition-colors duration-300 font-medium px-1">
+          <p className="flex-1 text-[#8EBC8E] group-hover:text-white leading-snug md:leading-relaxed text-xs md:text-sm transition-colors duration-300 font-medium px-1">
             {quote}
           </p>
           <div className="flex justify-end mt-2">

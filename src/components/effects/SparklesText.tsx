@@ -12,7 +12,7 @@ interface Sparkle {
     style: React.CSSProperties;
 }
 
-const DEFAULT_COLOR = '#FFC700';
+const DEFAULT_COLOR = '#8EBC8E';
 
 const generateSparkle = (color: string = DEFAULT_COLOR): Sparkle => {
     return {
@@ -30,7 +30,7 @@ const generateSparkle = (color: string = DEFAULT_COLOR): Sparkle => {
 
 const SparklesText = ({
     children,
-    colors = ['#FFC700', '#FFD700', '#FFFFFF'],
+    colors = ['#8EBC8E', '#A8D8A8', '#B4DCB5'],
     frequency = 100,
     className = '',
     style = {}

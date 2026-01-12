@@ -58,10 +58,10 @@ export const Navbar = () => {
           ))}
           <a href="https://tpc-ticketing-system.vercel.app/" target="_blank" rel="noopener noreferrer">
             <Button
-              className="relative overflow-hidden bg-gradient-to-r from-primary to-purple-600 hover:from-primary/90 hover:to-purple-600/90 text-white font-bold px-6 py-2 rounded-full border border-white/10 shadow-lg shadow-primary/30 transition-all duration-300 hover:scale-105 hover:shadow-primary/50"
+              className="relative overflow-hidden bg-[#B4DCB5] hover:bg-[#A8D8A8] text-[#212D5F] font-bold px-6 py-2 rounded-full border border-[#8EBC8E]/30 shadow-lg shadow-[#8EBC8E]/30 transition-all duration-300 hover:scale-105 hover:shadow-[#8EBC8E]/50"
             >
               <span className="relative z-10">REGISTER</span>
-              <div className="absolute inset-0 bg-gradient-to-r from-gold/20 to-transparent opacity-0 hover:opacity-100 transition-opacity" />
+              <div className="absolute inset-0 bg-gradient-to-r from-[#8EBC8E]/20 to-transparent opacity-0 hover:opacity-100 transition-opacity" />
             </Button>
           </a>
         </div>
@@ -91,7 +91,7 @@ export const Navbar = () => {
             ))}
             <a href="https://tpc-ticketing-system.vercel.app/" target="_blank" rel="noopener noreferrer" className="w-full md:w-auto mt-2">
               <Button
-                className="bg-primary hover:bg-primary/90 text-white font-semibold w-full px-8 rounded-full"
+                className="bg-[#B4DCB5] hover:bg-[#A8D8A8] text-[#212D5F] font-semibold w-full px-8 rounded-full"
               >
                 REGISTER
               </Button>

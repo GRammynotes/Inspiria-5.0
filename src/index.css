@@ -26,9 +26,9 @@
     --muted: 220 30% 15%;
     --muted-foreground: 220 20% 65%;
 
-    /* Updated Accent (Gold from Hero 5.0) - KEEP THIS GOLD */
-    --accent: 45 90% 55%;
-    --accent-foreground: 45 90% 10%;
+    /* Updated Accent (Green for premium look) */
+    --accent: 120 25% 65%;
+    --accent-foreground: 120 25% 15%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
@@ -45,8 +45,8 @@
     --cyber-cyan: 185 100% 50%;
     --cyber-magenta: 300 100% 60%;
     --cyber-blue: 210 100% 60%;
-    --gold: 45 90% 55%;
-    --gold-dark: 45 80% 40%;
+    --gold: 120 25% 65%;
+    --gold-dark: 120 20% 45%;
     --purple-glow: 270 100% 70%;
     --navy-deep: 220 60% 8%;
     --navy-mid: 220 50% 15%;
@@ -80,8 +80,8 @@
     --muted: 220 15% 92%;
     --muted-foreground: 220 10% 45%;
 
-    --accent: 45 90% 55%;
-    --accent-foreground: 45 90% 20%;
+    --accent: 120 30% 72%;
+    --accent-foreground: 120 30% 25%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
@@ -527,7 +527,7 @@
 }
 
 .gold-shimmer-text {
-  background: linear-gradient(90deg, #FFD700, #FFA500, #FFED4E, #FFD700, #FFA500);
+  background: linear-gradient(90deg, #8EBC8E, #A8D8A8, #B4DCB5, #8EBC8E, #A8D8A8);
   background-size: 200% auto;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -641,7 +641,7 @@
   left: 50%;
   width: 0;
   height: 2px;
-  background: linear-gradient(90deg, hsl(var(--gold)), hsl(var(--primary)));
+  background: linear-gradient(90deg, #8EBC8E, hsl(var(--primary)));
   transition: all 0.3s ease;
   transform: translateX(-50%);
   border-radius: 2px;
